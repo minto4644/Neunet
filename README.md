@@ -6,7 +6,7 @@ This README would normally document whatever steps are necessary to get your app
 
 * A simple GUI based application for 
 * applying machine learning alorithms
-* Currently supoorts classification 
+* Currently supports classification 
 * problems with tsv/csv formats. 
 * v0.01
 
