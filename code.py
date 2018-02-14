@@ -1,3 +1,5 @@
+# This file is genrated automatially using export code option .
+
 # importing modules
 import tensorflow as tf
 import pandas as pd
@@ -12,14 +14,15 @@ activation_layer2 = "tf.nn.linear"
 activation_layer3 = "tf.nn.linear"
 activation_layer4 = "tf.nn.linear"
 activation_layer5 = "tf.nn.linear"
-learning_rate = 1e-05
-optimizer_func = tf.train.GradientDescentOptimizer(learning_rate=0.000010,)
-ratio = 0.8
+learning_rate = 0.0
+momentum = 0.0
+optimizer_func = tf.train.MomentumOptimizer(learning_rate=0.000000,momentum=0.000000,)
+ratio = 0.9
 l1_regularization = ""
 l2_regularization = ""
 dropout_btn = False
-hidden_layers = [300, 2,1,1,1]
-file_name = "/home/mohitkumar/Dropbox/Mohit Shared Folder/4. ANN Hyper Parameters/Datasets/Credit Risk Data_balanced/Credit_risk_data_bal.csv"
+hidden_layers = [1, 1, 1, 1, 1]
+file_name = "/home/mohitkumar/Current/statinfer/wk_4/testing_data.csv"
 
 
 # Function for loading data using pandas read_csv or tsv
@@ -43,7 +46,7 @@ def load_data(fname):
 
 data = load_data(file_name)
 
-target_variable = "SeriousDlqin2yrs"
+target_variable = "loss"
 
 def splitData(ratio):
 	# Filtering out the variables that
@@ -192,7 +195,7 @@ def trainModel():
 
 	out6 = tf.matmul(out5, W6) + b6
 	# class_weight = tf.Variable([0.1,0.9],dtype=tf.float64)
-	weighted_logits = out2
+	weighted_logits = out6
 
 	y_pred = tf.nn.softmax(weighted_logits)
 	y_pred_cls = tf.argmax(y_pred,dimension=1)
@@ -257,5 +260,5 @@ def trainModel():
 
 	cof,y_true_,y_pred_,y_pred_prob = sess.run([tf.confusion_matrix(y_true_cls,y_pred_cls),y_true_cls,y_pred_cls,y_pred],feed_dict_train)
 	train_results = accuracy_score(y_true_,y_pred_)
-	print(train_results)
-trainModel()
+
+print(trainModel())
