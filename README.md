@@ -44,6 +44,7 @@ Enviroment setup:
 
 * Training Done
 <img src="imgs/training_complete.png" alt="alt text" width="400" height="250">
+
 ### Contribution guidelines ###
 **Contains lots of bugs. Create an issue and helps in development of project. I would love to fix them.**
 
