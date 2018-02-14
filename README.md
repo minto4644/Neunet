@@ -24,8 +24,7 @@ Enviroment setup:
 
 **Sneak peak GUI**
 init: 
-![](imgs/init.png =50x50)
-
+<img src="imgs/init.png" alt="alt text" width="200" height="100">
 ### Contribution guidelines ###
 **Contains lots of bugs. Create an issue and helps in development of project. I would love to fix them.**
 
