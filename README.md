@@ -11,17 +11,23 @@ This README would normally document whatever steps are necessary to get your app
 * v0.01
 
 ### How do I get set up? ###
-
-* Enviroment setup:
+Enviroment setup:
 	- Download and install [Annaconda](https://www.anaconda.com/download/)
 	- create a virtual enviroment (**conta create -n gui python=3.6**)
 	- activate it using (**source activate gui**)
 	- Install required packages using (**pip install requirements.txt**)	
-* RUN: python neunet.py
-* Dependencies 
-* tensorflow, pandas, scikit-learn
+
+**RUN**: python neunet.py
+
+**Dependencies** : tensorflow, pandas, scikit-learn
+
+
+**Sneak peak GUI**
+init: 
+![alt-text](imgs/init.png)
 
 ### Contribution guidelines ###
+**Contains lots of bugs. Create an issue and helps in development of project. I would love to fix them.**
 
 * Writing tests
 * Code review
