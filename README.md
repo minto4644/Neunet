@@ -4,18 +4,15 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* A simple GUI based application for 
-* applying machine learning alorithms
-* Currently supports classification 
-* problems with tsv/csv formats. 
+* A simple GUI based application for applying machine learning alorithms. Currently supports classification problems with tsv/csv formats. 
 * v0.01
 
 ### How do I get set up? ###
 Enviroment setup:
-	- Download and install [Annaconda](https://www.anaconda.com/download/)
-	- create a virtual enviroment (**conta create -n gui python=3.6**)
-	- activate it using (**source activate gui**)
-	- Install required packages using (**pip install requirements.txt**)	
+* Download and install [Annaconda](https://www.anaconda.com/download/)
+* create a virtual enviroment (**conta create -n gui python=3.6**)
+* activate it using (**source activate gui**)
+* Install required packages using (**pip install requirements.txt**)	
 
 **RUN**: python neunet.py
 
@@ -46,11 +43,9 @@ Enviroment setup:
 <img src="imgs/training_complete.png" alt="alt text" width="400" height="250">
 
 ### Contribution guidelines ###
-**Contains lots of bugs. Create an issue and helps in development of project. I would love to fix them.**
+**It may contain bugs. Create an issue and helps in development of project. I would love to fix them.**
 
-* Writing tests
-* Code review
-* Other guidelines
+
 
 ### Who do I talk to? ###
 
