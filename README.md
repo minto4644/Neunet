@@ -1,6 +1,6 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+
 
 ### What is this repository for? ###
 
@@ -43,7 +43,7 @@ Enviroment setup:
 <img src="imgs/training_complete.png" alt="alt text" width="400" height="250">
 
 ### Contribution guidelines ###
-**It may contain bugs. Create an issue and helps in development of project. I would love to fix them.**
+**Create an issue for bugs and helps in development of project. I would love to fix them.**
 
 
 
