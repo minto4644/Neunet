@@ -4,7 +4,7 @@
 
 ### What is this repository for? ###
 
-* A simple GUI based application for applying machine learning alorithms. Currently supports classification problems with tsv/csv formats. 
+* A simple GUI based application for applying machine learning algorithms. Currently supports classification problems with tsv/csv formats. 
 * v0.01
 
 ### How do I get set up? ###
